@@ -129,9 +129,6 @@ article img {
   grid-row: 2/3;
   grid-column: 1/2;
 }
-/*.experience img{
-  padding: 0;
-}*/
 
 .education {
   background-color: #b5cbb7;
@@ -316,6 +313,15 @@ article img {
     grid-column: 1;
     grid-row: 2/3;
     height: 600px;
+  }
+
+  .arrows {
+  display: flex;
+  height: 65px;
+  width: 100%;
+  justify-content: space-between;
+  position: relative;
+  top: 1%;
   }
 
   .nested-grid {
