@@ -137,6 +137,11 @@ article img{
     margin-bottom: 0;
   }
 
+  .aside{
+    height: 600px;
+    width: 100%;
+    grid-column: 1/3;
+  }
   .nested-grid{
   grid-column: 1/3;
   }
@@ -154,7 +159,9 @@ article img{
     margin-bottom: 0;
   }
   .aside{
+    grid-column: 1;
     grid-row: 2/3;
+    height: 600px;
   }
 
   .nested-grid{
@@ -213,6 +220,8 @@ article img{
 /*Media Queries for Smaller mobile screens
 */
 
+/*@media screen and (min-width: 445px) and (max-width: 650px){}
+*/
 @media screen and (min-width: 1px) and (max-width: 650px){
 
   .content-header p{
@@ -230,11 +239,12 @@ article img{
     display: grid;
     grid-column: 1;
     grid-row: 2/3;
+    height: 600px;
   }
 
   .nested-grid {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 300px 130px 140px 200px 200px;
+    grid-template-rows: 300px 200px 200px 200px 200px;
   }
 
   .content-header {
