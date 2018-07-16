@@ -62,6 +62,9 @@ article img{
 	background-image: url('/Users/Cierra/Documents/Turing Projects/static-comp-1/images/spraguelake.jpg');
 }
 .profile{
+	display:flex;
+	height: 5rem;
+	align-content: space-around;
 	grid-row: 1/2;
 	grid-column: 2/3;
 }

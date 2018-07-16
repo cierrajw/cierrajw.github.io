@@ -109,7 +109,7 @@ article img{
   grid-column: 3/4;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1030px){
 
   .wrapper {
     display: grid;
@@ -127,7 +127,7 @@ article img{
 
 }
 
-@media screen and (max-width: 750px){
+@media screen and (min-width: 746px){
 
   .wrapper {
     display: grid;
@@ -191,7 +191,7 @@ article img{
   }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
 
   .wrapper {
     display: grid;
