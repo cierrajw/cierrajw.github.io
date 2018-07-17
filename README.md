@@ -25,7 +25,7 @@ Images/icons were found @ www.flaticon.com.
 
 
 
-![Back arrow](https://github.com/cierrajw/cjw-comp-challenge-1/blob/master/images/backarrow.SVG)
+![Back arrow](cjw-comp-challenge-1/images/backarrow.SVG)
 ![Battery](https://github.com/cierrajw/cjw-comp-challenge-1/blob/MediaQueries/images/battery2.SVG)
 ![Blog](https://github.com/cierrajw/cjw-comp-challenge-1/blob/MediaQueries/images/blog2.SVG)
 ![Contact](https://github.com/cierrajw/cjw-comp-challenge-1/blob/MediaQueries/images/contact.SVG)
