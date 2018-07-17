@@ -9,4 +9,4 @@ Images/icons were found @ www.flaticon.com.
 
 <h3>Images:</h3>
 
-![Image description](link-to-image)
+![Back arrow](https://github.com/cierrajw/cjw-comp-challenge-1/blob/MediaQueries/images/backarrow.svg)
