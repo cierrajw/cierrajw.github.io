@@ -344,6 +344,10 @@ article img {
     text-align: center;
   }
 
+  .header-buttons {
+    width: 12rem;
+  }
+
   .header-buttons img {
     height: 17px;
     width: 17px;
@@ -383,7 +387,7 @@ article img {
 
   .nested-grid {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 360px 150px 200px 200px 200px;
+    grid-template-rows: 350px 150px 200px 200px 200px;
   }
 
   .content-header {
