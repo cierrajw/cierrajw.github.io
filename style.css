@@ -346,6 +346,9 @@ article img {
 
   .header-buttons {
     width: 12rem;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
   }
 
   .header-buttons img {
