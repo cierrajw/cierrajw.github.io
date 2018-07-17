@@ -92,14 +92,14 @@ article img {
 .aside {
   background-color: blue;
   grid-column: 2;
-  background-image: url('cjw-comp-challenge-1/images/spraguelake2.PNG');
+  background-image: url('/images/spraguelake2.PNG');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: -50px 0px;
 }
 
 .aside:hover {
-  background-image: url('cjw-comp-challenge-1/images/spraguelake.JPG');
+  background-image: url('/images/spraguelake.JPG');
 }
 
 .ellipsis {
