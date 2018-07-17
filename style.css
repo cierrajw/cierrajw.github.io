@@ -393,7 +393,7 @@ article img {
 
   .nested-grid {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 350px 150px 200px 200px 200px;
+    grid-template-rows: 350px 200px 200px 200px 200px;
   }
 
   .content-header {
