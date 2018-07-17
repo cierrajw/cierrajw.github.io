@@ -21,6 +21,6 @@ Images/icons were found @ www.flaticon.com.
 ![Profile](https://github.com/cierrajw/cjw-comp-challenge-1/blob/MediaQueries/images/profile.svg)
 ![Resume](https://github.com/cierrajw/cjw-comp-challenge-1/blob/MediaQueries/images/resume.svg)
 ![Right arrow](https://github.com/cierrajw/cjw-comp-challenge-1/blob/MediaQueries/images/rightarrow.svg)
-![Sprague lake](https://github.com/cierrajw/cjw-comp-challenge-1/blob/MediaQueries/images/spraguelake.svg)
+![Sprague lake](https://github.com/cierrajw/cjw-comp-challenge-1/blob/MediaQueries/images/spraguelake.jpg)
 ![Sprague lake](https://github.com/cierrajw/cjw-comp-challenge-1/blob/MediaQueries/images/spraguelake2.svg)
 ![User](https://github.com/cierrajw/cjw-comp-challenge-1/blob/MediaQueries/images/user2.svg)
