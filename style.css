@@ -354,6 +354,7 @@ article img {
     display: flex;
     justify-content: center;
     align-content: center;
+    margin-bottom: 2em;
   }
 
   .wrapper {
@@ -382,7 +383,7 @@ article img {
 
   .nested-grid {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 330px 200px 200px 200px 200px;
+    grid-template-rows: 360px 150px 200px 200px 200px;
   }
 
   .content-header {
