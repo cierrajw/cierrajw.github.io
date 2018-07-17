@@ -4,7 +4,7 @@
 This is my first static comp challenge at Turing. I created this using CSS Grid and Flexbox.
 </p>  
 <p>
- Some things were a challenges such as getting the images and the text in the top buttons to align, among many other things.
+ Some things were a challenge such as getting the images and the text in the top buttons to align, among many other things.
 </p>
 <p>
 Images/icons were found @ www.flaticon.com.
