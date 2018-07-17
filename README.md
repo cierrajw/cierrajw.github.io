@@ -13,6 +13,7 @@ Images/icons were found @ www.flaticon.com.
 <h1>Comp Comparison:</h1>
 
 <h2>Original:</h2>
+
 ![Original](https://github.com/cierrajw/cjw-comp-challenge-1/blob/MediaQueries/images/original-comp-1.jpg)
 
 <h2>My Comp:</h2>
