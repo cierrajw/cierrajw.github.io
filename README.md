@@ -7,7 +7,8 @@ This is my first static comp challenge at Turing. I created this using CSS Grid 
 Images/icons were found @ www.flaticon.com.
 </p>
 
-<h3>Images: (the white svg files are invisible against the white background in this file)</h3>
+<h2>Images:</h2>
+<h3(the white svg files are invisible against the white background in this file)</h3>
 
 ![Back arrow](https://github.com/cierrajw/cjw-comp-challenge-1/blob/MediaQueries/images/backarrow.svg)
 ![Battery](https://github.com/cierrajw/cjw-comp-challenge-1/blob/MediaQueries/images/battery2.svg)
