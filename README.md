@@ -6,3 +6,7 @@ This is my first static comp challenge at Turing. I created this using CSS Grid 
 <p>
 Images/icons were found @ www.flaticon.com.
 </p>
+
+<h3>Images:</h3>
+
+![Image description](link-to-image)
