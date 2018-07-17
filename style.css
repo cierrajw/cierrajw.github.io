@@ -265,6 +265,13 @@ article img {
     text-align: center;
   }
 
+  .header-buttons {
+    width: 12rem;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
   .button-section {
     display: flex;
     justify-content: center;
