@@ -100,6 +100,10 @@ article img {
   background-position: -50px 0px;
 }
 
+.aside:hover {
+  background-image: url('/Users/Cierra/Documents/Turing Projects/static-comp-1/images/spraguelake.jpg');
+}
+
 .ellipsis {
   display: flex;
   justify-content: flex-end;
@@ -126,10 +130,6 @@ article img {
 
 .arrows img:hover{
   opacity: .7;
-}
-
-.aside:hover {
-  background-image: url('/Users/Cierra/Documents/Turing Projects/static-comp-1/images/spraguelake.jpg');
 }
 
 .nested-grid {
