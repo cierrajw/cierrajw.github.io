@@ -8,6 +8,49 @@ h1 {
   margin-bottom: 0;
 }
 
+.modal{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0, 0.5);
+  opacity: .8;
+}
+
+.modal-content{
+  display: grid;
+  opacity: 1;
+  grid-template-rows: auto auto;
+  margin: 20% auto;
+  background-color: #b5cbb7;
+  width: 75%;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.2);
+}
+
+.modal-paragraph{
+  margin: 0;
+}
+
+.close-btn-div{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.close-btn{
+  height: auto;
+  font-size: xx-large;
+  padding-right: 5px;
+  color: grey;
+}
+
+.close-btn:hover{
+  color: red;
+}
+
 .content-header {
   grid-column: 1/3;
   grid-row: 1/2;
@@ -269,7 +312,7 @@ article img {
     width: 12rem;
     height: 3rem;
   }
-  
+
   .button-section {
     display: flex;
     justify-content: center;
@@ -340,7 +383,7 @@ article img {
     justify-content: center;
     align-content: center;
   }
-  
+
   .content-header p {
     line-height: 2em;
     display: flex;

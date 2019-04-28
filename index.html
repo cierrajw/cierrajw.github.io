@@ -8,17 +8,19 @@
 
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
+  <script src="jquery-3.4.0.js"></script>
 </head>
+
 <body>
 
   <container class="wrapper">
 
-    <content class=nested-grid>
+    <content class="nested-grid">
 
-      <main class="content-header">   
+      <main class="content-header">
         <h1>Cierra Washington</h1>
         <p>
-        I'm a UX Designer, Coder & Entrepreneur. 
+        I'm a UX Designer, Coder & Entrepreneur.
         <br>
         Take a look at my portfolio to see what I'm working on.
         </p>
@@ -28,21 +30,48 @@
       </section>
       </main>
 
-  
-        <article class="profile link"><img src="/cjw-comp-challenge-1/images/user2.SVG" alt="Profile link image"><a href="">PROFILE</a></article>
 
-        <article class="experience link"><img src="/cjw-comp-challenge-1/images/battery2.SVG" alt="Image of battery used for experience link"><a href="">EXPERIENCE</a></article>
+        <article class="profile link"><img src="/cjw-comp-challenge-1/images/user2.SVG" alt="Profile link image"><a href="http://www.linkedin.com/in/cierrajw">PROFILE</a></article>
 
-        <article class="education link"><img src="/cjw-comp-challenge-1/images/education.SVG" alt="A stack of books used to represent education link"><a href="">EDUCATON</a></article>
+        <article class="experience link"><img src="/cjw-comp-challenge-1/images/battery2.SVG" alt="Image of battery used for experience link"><span class="experience modal-btn">EXPERIENCE</span></article>
 
-        <article class="blog link"><img src="/cjw-comp-challenge-1/images/blog2.SVG" alt="A blog image for the blog link"><a href="">BLOG</a></article>
+        <article class="education link"><img src="/cjw-comp-challenge-1/images/education.SVG" alt="A stack of books used to represent education link"><span class="education modal-btn">EDUCATON</span></article>
 
-        <article class="social-menu link"><img src="/cjw-comp-challenge-1/images/plus-sign.SVG" alt="Social media link represented by a plus sign"><a href="">SOCIAL MENU</a></article>
+        <article class="blog link"><img src="/cjw-comp-challenge-1/images/blog2.SVG" alt="A blog image for the blog link"><span class="modal-btn">BLOG</span></article>
+
+        <article class="social-menu link"><img src="/cjw-comp-challenge-1/images/plus-sign.SVG" alt="Social media link represented by a plus sign"><a href="http://www.twitter.com/cierrajwashi">SOCIAL MEDIA</a></article>
 
         <article class="contact link"><img src="/cjw-comp-challenge-1/images/contact.SVG" alt="An image with an envelope representing the contact link"><a href="">CONTACT</a></article>
 
-        <article class="portfolio link"><img src="/cjw-comp-challenge-1/images/portfolio.SVG" alt="Image of a computer screen representing an electronic portfolio link"><a href="">PORTFOLIO</a></article>
-  
+        <article class="portfolio link"><img src="/cjw-comp-challenge-1/images/portfolio.SVG" alt="Image of a computer screen representing an electronic portfolio link"><span class="portfolio modal-btn">PORTFOLIO</span></article>
+
+
+        <div class="education-modal modal">
+          <div class="modal-content">
+            <div class="close-btn-div"><span class=close-btn>&times;</span></div>
+            <p class="modal-paragraph">
+              Helloooow I'm an awesome EDUCATION modal.
+            </p>
+          </div>
+        </div>
+
+        <div class="portfolio-modal modal">
+          <div class="modal-content">
+            <div class="close-btn-div"><span class=close-btn>&times;</span></div>
+            <p class="modal-paragraph">
+              Helloooow I'm an awesome PORTFOLIO modal.
+            </p>
+          </div>
+        </div>
+
+        <div class="experience-modal modal">
+          <div class="modal-content">
+            <div class="close-btn-div"><span class=close-btn>&times;</span></div>
+            <p class="modal-paragraph">
+              Helloooow I'm an awesome EXPERIENCE modal.
+            </p>
+          </div>
+        </div>
     </content>
 
 
@@ -58,5 +87,6 @@
 
   </container>
 
+<script src="main.js"></script>
 </body>
 </html>
