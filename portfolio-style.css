@@ -1,0 +1,126 @@
+body{
+  padding: 10px;
+  background-color: #607D8B;
+}
+
+h1{
+  color: white;
+  font-size: 3rem;
+}
+
+h2{
+  color: #b5cbb7;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.company-name{
+  font-size: 2rem;
+  color: white;
+}
+
+.fas.fa-arrow-left{
+  color: #b5cbb7;
+}
+
+.view-gallery{
+  color: white;
+  margin-top: 5px;
+  font-size: 1.5rem;
+}
+
+.view-gallery:hover{
+  cursor: pointer;
+}
+
+.project-type{
+  font-size: 1.5rem;
+  color: #b5cbb7;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.project-img{
+  width: 300px;
+  height: 500px;
+  border: 1px solid black;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.2);
+}
+
+.project{
+  display: grid;
+  margin: 25px;
+  background-color: #6F8A96;
+  border: .5px solid black;
+  grid-template-columns: 50% 50%;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.2);
+}
+
+.img-container{
+  align-items: center;
+  padding: 10px;
+}
+
+.project-img-desktop{
+  width: 600px;
+  height: 500px;
+  border: 1px solid black;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.2);
+}
+
+.project-description{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.project1-img, .project2-img, .project3-img, .project4-img, .project5-img{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+.project1-img{
+  grid-column: 1;
+}
+
+.project2-img{
+  grid-column: 1;
+}
+
+.project3-img{
+  grid-column: 1;
+}
+
+.project4-img{
+  grid-column: 1;
+}
+
+.project5-img{
+  grid-column: 1;
+}
+
+.project1-text{
+  grid-column: 2;
+}
+
+.project2-text{
+  grid-column: 2;
+}
+
+.project3-text{
+  grid-column: 2;
+}
+
+.project4-text{
+  grid-column: 2;
+}
+
+.project5-text{
+  grid-column: 2;
+}
+
+.github{
+  margin-left: 15px;
+}

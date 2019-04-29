@@ -8,6 +8,10 @@ h1 {
   margin-bottom: 0;
 }
 
+.modal-btn, .contact:hover{
+  cursor: pointer;
+}
+
 .modal{
   display: none;
   position: fixed;
@@ -18,7 +22,6 @@ h1 {
   height: 100%;
   overflow: auto;
   background-color: rgba(0,0,0, 0.5);
-  opacity: .8;
 }
 
 .modal-content{
@@ -47,8 +50,75 @@ h1 {
   color: grey;
 }
 
+.header-buttons:hover{
+  background-color: #56707D;
+  cursor: pointer;
+}
+
 .close-btn:hover{
   color: red;
+}
+
+.contact-form-content{
+  display: grid;
+  margin: 20px;
+  grid-template-rows: repeat(5, auto);
+  grid-template-columns: 27% 50%;
+}
+
+.contact-label{
+  grid-column: 1;
+}
+
+.contact-input{
+  margin-bottom: 10px;
+}
+
+.name-label{
+  grid-row: 1;
+}
+
+.subject-label{
+  grid-row: 2;
+}
+
+.name-label, .email-label, .body-label, .subject-label{
+  justify-self: end;
+  margin-right: 10px;
+}
+
+.email-label{
+  grid-row: 3;
+}
+
+.body-label{
+  grid-row: 4;
+}
+
+.body-input{
+  height: 150px;
+}
+
+.contact-me-label{
+  width: inherit;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+  color: white;
+  padding: 5px;
+}
+
+.blog-paragraph{
+  padding: 10px;
+  text-align: center;
+}
+
+div.header-text-span.contact{
+  background-color: inherit;
+}
+
+.resume-modal{
+  display: none;
 }
 
 .content-header {
@@ -74,14 +144,24 @@ button:focus {
 
 .header-buttons {
   border: 2px solid white;
-  height: 2.5rem;
+  height: 4rem;
   width: 6rem;
   background-color: inherit;
   color: white;
   margin-top: 1em;
   margin-bottom: 1em;
   margin-right: 1em;
+}
 
+.submit-button{
+  margin: 0 auto;
+  grid-column: 2;
+  align-self: center;
+  width: 120px;
+}
+
+.submit-button:hover{
+  background-color: #A2B6A4;
 }
 
 .header-buttons img {
@@ -210,7 +290,7 @@ article img {
   grid-column: 1/2;
 }
 
-.contact {
+.contact-box {
   background-color: #d2e4c4;
   grid-row: 3/4;
   grid-column: 2/3;
@@ -233,9 +313,6 @@ article img {
     grid-auto-rows: repeat(2, 50%);
     margin-bottom: 0;
   }
-/*  .content-header p{
-    line-heght: 3em;
-  }*/
 
   .aside img {
     height: 600px;

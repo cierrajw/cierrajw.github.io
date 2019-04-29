@@ -20,13 +20,13 @@
       <main class="content-header">
         <h1>Cierra Washington</h1>
         <p>
-        I'm a UX Designer, Coder & Entrepreneur.
+        Web & Mobile Developer, UX Designer.
         <br>
         Take a look at my portfolio to see what I'm working on.
         </p>
         <section class="button-section">
-        <button class="header-buttons"><div><img src="/cjw-comp-challenge-1/images/resume.SVG"></div><div class="header-text-span">Resume</div></button>
-        <button class="header-buttons"><div><img src="/cjw-comp-challenge-1/images/information.SVG"></div><div class="header-text-span">Contact</div></button>
+        <button class="header-buttons resume-button"><div><img src="/cjw-comp-challenge-1/images/resume.SVG"></div><div class="header-text-span"><a href="http://docs.google.com/gview?url=https://github.com/cierrajw/cjw-comp-challenge-1/raw/master/CierraWashingtonResume.pdf&embedded=true">Resume</a></div></button>
+        <button class="header-buttons"><div><img src="/cjw-comp-challenge-1/images/information.SVG"></div><div class="header-text-span contact">Contact</div></button>
       </section>
       </main>
 
@@ -37,13 +37,13 @@
 
         <article class="education link"><img src="/cjw-comp-challenge-1/images/education.SVG" alt="A stack of books used to represent education link"><span class="education modal-btn">EDUCATON</span></article>
 
-        <article class="blog link"><img src="/cjw-comp-challenge-1/images/blog2.SVG" alt="A blog image for the blog link"><span class="modal-btn">BLOG</span></article>
+        <article class="blog link"><img src="/cjw-comp-challenge-1/images/blog2.SVG" alt="A blog image for the blog link"><span class="blog modal-btn">BLOG</span></article>
 
         <article class="social-menu link"><img src="/cjw-comp-challenge-1/images/plus-sign.SVG" alt="Social media link represented by a plus sign"><a href="http://www.twitter.com/cierrajwashi">SOCIAL MEDIA</a></article>
 
-        <article class="contact link"><img src="/cjw-comp-challenge-1/images/contact.SVG" alt="An image with an envelope representing the contact link"><a href="">CONTACT</a></article>
+        <article class="contact contact-box link"><img src="/cjw-comp-challenge-1/images/contact.SVG" alt="An image with an envelope representing the contact link"><span class="contact contact-btn">CONTACT</span></article>
 
-        <article class="portfolio link"><img src="/cjw-comp-challenge-1/images/portfolio.SVG" alt="Image of a computer screen representing an electronic portfolio link"><span class="portfolio modal-btn">PORTFOLIO</span></article>
+        <article class="portfolio link"><img src="/cjw-comp-challenge-1/images/portfolio.SVG" alt="Image of a computer screen representing an electronic portfolio link"><a href="portfolio.html" class="portfolio modal-btn">PORTFOLIO</a></article>
 
 
         <div class="education-modal modal">
@@ -72,16 +72,46 @@
             </p>
           </div>
         </div>
+
+        <div aria-label="contact" class="modal contact-form">
+          <div class="modal-content">
+            <form action="https://formspree.io/cierrajwashi@gmail.com" method="POST">
+              <div class="close-btn-div"><span class=close-btn>&times;</span></div>
+              <Label class="contact-me-label"> > Contact me!</Label>
+              <div class="contact-form-content">
+                <label class="name-label contact-label">Name:</label>
+                <Label class="subject-label contact-label">Subject:</Label>
+                <Label class="email-label contact-label">Email:</Label>
+                <Label class="body-label contact-label">Body:</Label>
+                <input type="text" name="name" class="name-input contact-input"/>
+                <input type="text" name="subject" class="subject-input contact-input"/>
+                <input type="text" name="email" class="email-input contact-input"/>
+                <textarea type="text" name="body" class="body-input contact-input"></textarea>
+
+                <button aria-label="submit" class="submit-button header-buttons">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="blog-modal modal">
+          <div class="modal-content">
+            <div class="close-btn-div"><span class=close-btn>&times;</span></div>
+            <p class="modal-paragraph blog-paragraph">
+              Blog coming soon!
+            </p>
+          </div>
+        </div>
     </content>
 
 
     <aside class="aside">
-      <section class="ellipsis"><img src="/cjw-comp-challenge-1/images/more3.SVG"></section>
+      <section><img src="/cjw-comp-challenge-1/images/more3.SVG"></section>
 
-      <section class="arrows">
+      <!-- <section class="arrows">
         <img src="/cjw-comp-challenge-1/images/backarrow.SVG">
         <img src="/cjw-comp-challenge-1/images/rightarrow.SVG">
-      </section>
+      </section> -->
 
     </aside>
 
