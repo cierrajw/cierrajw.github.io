@@ -14,12 +14,6 @@ function openModal(){
   let clickedElement = event.target;
 
   switch(true){
-    case clickedElement.classList.contains('education'):
-    educationModal.show();
-    break;
-    case clickedElement.classList.contains('experience'):
-    experienceModal.show();
-    break;
     case clickedElement.classList.contains('contact'):
     contactForm.show();
     break;
@@ -30,12 +24,6 @@ function openModal(){
 }
 
 function closeModal(){
-  // if($(".modal").classList.contains('close-btn')){
-  //   event.target.hide();
-  // }
-  educationModal.hide();
-  portfolioModal.hide();
-  experienceModal.hide();
   contactForm.hide();
   blogModal.hide();
 }

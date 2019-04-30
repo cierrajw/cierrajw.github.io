@@ -14,6 +14,16 @@ h2{
   font-size: 2rem;
 }
 
+p{
+  padding: 10px;
+  font-size: 1.5rem;
+  color: #2f3133;
+}
+
+a{
+  text-decoration: none;
+}
+
 .company-name{
   font-size: 2rem;
   color: white;
@@ -48,16 +58,17 @@ h2{
 }
 
 .project{
-  display: grid;
+  display: flex;
+  flex-direction: row;
   margin: 25px;
   background-color: #6F8A96;
   border: .5px solid black;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 45% 55%;
   box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.2);
 }
 
 .img-container{
-  align-items: center;
+  text-align: center;
   padding: 10px;
 }
 
@@ -73,52 +84,6 @@ h2{
   flex-direction: column;
   padding: 10px;
   justify-content: center;
-  align-content: flex-start;
-}
-
-.project1-img, .project2-img, .project3-img, .project4-img, .project5-img{
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-}
-.project1-img{
-  grid-column: 1;
-}
-
-.project2-img{
-  grid-column: 1;
-}
-
-.project3-img{
-  grid-column: 1;
-}
-
-.project4-img{
-  grid-column: 1;
-}
-
-.project5-img{
-  grid-column: 1;
-}
-
-.project1-text{
-  grid-column: 2;
-}
-
-.project2-text{
-  grid-column: 2;
-}
-
-.project3-text{
-  grid-column: 2;
-}
-
-.project4-text{
-  grid-column: 2;
-}
-
-.project5-text{
-  grid-column: 2;
 }
 
 .github{
