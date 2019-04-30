@@ -144,8 +144,8 @@ button:focus {
 
 .header-buttons {
   border: 2px solid white;
-  height: 4rem;
-  width: 6rem;
+  height: 3rem;
+  width: 12rem;
   background-color: inherit;
   color: white;
   margin-top: 1em;
