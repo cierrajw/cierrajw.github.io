@@ -177,6 +177,11 @@ a {
 
 .link {
   color: white;
+  opacity: .9;
+}
+
+.link:hover{
+  opacity: 1;
 }
 
 article {
