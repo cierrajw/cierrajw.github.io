@@ -1,6 +1,6 @@
 body{
   padding: 10px;
-  background-color: #607D8B;
+  background-color: #b5cbb7;
 }
 
 h1{
@@ -30,7 +30,7 @@ a{
 }
 
 .fas.fa-arrow-left{
-  color: #b5cbb7;
+  color: #607d8b;
 }
 
 .view-gallery{
@@ -54,6 +54,7 @@ a{
   width: 300px;
   height: 500px;
   border: 1px solid black;
+  border-radius: 10px;
   box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.2);
 }
 
@@ -61,8 +62,10 @@ a{
   display: flex;
   flex-direction: row;
   margin: 25px;
-  background-color: #6F8A96;
+  background-color: #607d8b;
+  /* background-color: #6F8A96; */
   border: .5px solid black;
+  border-radius: 20px;
   grid-template-columns: 45% 55%;
   box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.2);
 }
