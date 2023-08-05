@@ -2,6 +2,7 @@ let educationModal = $(".education-modal");
 let portfolioModal = $(".portfolio-modal");
 let experienceModal = $(".experience-modal");
 let blogModal = $(".blog-modal");
+let profileModal = $(".profile-modal");
 let contactForm = $(".contact-form");
 let closeButton = $(".close-btn");
 let links = $(".nested-grid");
@@ -19,6 +20,8 @@ function openModal(){
     break;
     case clickedElement.classList.contains('blog'):
     blogModal.show();
+    case clickedElement.classList.contains('profile'):
+    profileModal.show();
     break;
   }
 }
@@ -26,4 +29,5 @@ function openModal(){
 function closeModal(){
   contactForm.hide();
   blogModal.hide();
+  profileModal.hide();
 }
