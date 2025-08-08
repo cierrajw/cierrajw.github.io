@@ -3,32 +3,40 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Realtor Name</title>
+  <title>[Your Name] - Realtor</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
     <img src="your-photo.jpg" alt="Your Name" class="profile-photo" />
     <div class="intro">
-      <h1>Hi, I’m [Your Name]</h1>
+      <h1>[Your Name]</h1>
       <p>Your trusted real estate agent helping you buy or sell your dream home with confidence.</p>
+      <button id="contactBtn">Contact Me</button>
     </div>
-    <button id="contactBtn">Contact Me</button>
   </header>
 
   <main>
-    <section class="why-me">
-      <h2>Why Work With Me?</h2>
-      <ul>
-        <li>Expert knowledge of the local market</li>
-        <li>Personalized buying and selling experience</li>
-        <li>Fast, clear, and honest communication</li>
-      </ul>
+    <section class="card about-me">
+      <h2>About Me</h2>
+      <p>With years of experience in the local market, I specialize in helping clients navigate the buying and selling process with ease. My commitment is to provide honest advice, professional service, and successful results.</p>
     </section>
 
-    <section class="testimonials">
+    <section class="card">
+      <h2>Featured Properties</h2>
+      <p>Browse my hand-picked selection of the latest homes available.</p>
+      <a href="https://example.com/view-properties" class="cta-link">View Properties</a>
+    </section>
+
+    <section class="card">
+      <h2>Find Out Your Home’s Value</h2>
+      <p>Curious what your home is worth in today’s market? Get a free, no-obligation home valuation.</p>
+      <a href="https://example.com/home-value" class="cta-link">See Your Home Value</a>
+    </section>
+
+    <section class="card testimonials">
       <h2>What My Clients Say</h2>
-      <p>“[Your Name] made buying our first home easy and stress-free!” – Happy Client</p>
+      <blockquote>“[Your Name] made buying our first home easy and stress-free!” – Happy Client</blockquote>
     </section>
   </main>
 
@@ -45,6 +53,20 @@
       </form>
     </div>
   </div>
+
+  <footer>
+    <div class="footer-links">
+      <a href="#contactBtn">Contact Me</a>
+      <a href="https://example.com/blog">Blog</a>
+      <a href="https://example.com/view-properties">View Properties</a>
+    </div>
+    <div class="social-links">
+      <a href="https://instagram.com" target="_blank">Instagram</a>
+      <a href="https://facebook.com" target="_blank">Facebook</a>
+      <a href="https://bsky.app" target="_blank">Bluesky</a>
+    </div>
+    <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+  </footer>
 
   <script>
     const contactBtn = document.getElementById('contactBtn');
