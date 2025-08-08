@@ -3,10 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cierra Washington - Realtor</title>
+  <title>[Your Name] – Realtor</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <nav class="top-nav">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Featured</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
   <header>
     <div class="header-images">
       <a href="https://freeimage.host/i/FsejDGI" target="_blank">
@@ -14,72 +24,54 @@
       </a>
     </div>
     <div class="intro">
-      <h1>Cierra Washington</h1>
-      <p>Your trusted Maryland real estate agent helping you buy or sell your dream home in Maryland</p>
+      <h1>[Your Name]</h1>
+      <p>Your trusted real estate partner for buying or selling your dream home.</p>
       <button id="contactBtn">Contact Me</button>
     </div>
   </header>
 
   <main>
+    <section class="card cta-row">
+      <a href="#" class="cta-button">Why Work With Me?</a>
+      <a href="#" class="cta-button">What's Your Home Worth?</a>
+    </section>
+
+    <section class="card featured-listing">
+      <h2>Featured Listing</h2>
+      <p>120 Carlton Street, Unit 416 — $479,900</p>
+      <a href="#" class="cta-link">Learn More</a>
+    </section>
+
     <section class="card about-me">
       <h2>About Me</h2>
-      <p>With years of experience in the local market, I specialize in helping clients navigate the buying and selling process with ease. My commitment is to provide honest advice, professional service, and successful results.</p>
+      <p>I’m a real estate professional committed to honest, innovative service with results that exceed expectations.</p>
     </section>
 
-    <section class="card">
-      <h2>Featured Properties</h2>
-      <p>Browse my hand-picked selection of the latest homes available.</p>
-      <a href="#" class="cta-link">View Properties</a>
-    </section>
-
-    <section class="card">
-      <h2>Find Out Your Home’s Value</h2>
-      <p>Curious what your home is worth in today’s market? Get a free, no-obligation home valuation.</p>
-      <a href="#" class="cta-link">See Your Home Value</a>
-    </section>
-
-    <section class="card testimonials">
-      <h2>What My Clients Say</h2>
-      <blockquote>“[Your Name] made buying our first home easy and stress-free!” – Happy Client</blockquote>
+    <section class="card blog-preview">
+      <h2>Latest from the Blog</h2>
+      <ul>
+        <li><a href="#">What Is a Buyer’s Market Like?</a></li>
+        <li><a href="#">The Rise and Fall of the Microcondo</a></li>
+        <li><a href="#">Reddit, Real Estate, and the Wild West of Online Opinions</a></li>
+      </ul>
+      <a href="#" class="cta-link">View All Blog Posts</a>
     </section>
   </main>
 
-  <!-- Contact Form Modal -->
-  <div id="contactModal" class="modal">
-    <div class="modal-content">
-      <span id="closeModal">&times;</span>
-      <h2>Get in Touch</h2>
-      <form action="https://formspree.io/f/yourformid" method="POST">
-        <input type="text" name="name" placeholder="Your Name" required />
-        <input type="email" name="email" placeholder="Your Email" required />
-        <textarea name="message" placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-    </div>
-  </div>
+  <!-- Contact Modal (same as before) -->
 
   <footer>
     <div class="footer-links">
-      <a href="#contactBtn">Contact Me</a>
+      <a href="#">Contact</a>
       <a href="#">Blog</a>
-      <a href="#">View Properties</a>
+      <a href="#">Featured</a>
     </div>
     <div class="social-links">
-      <a href="https://instagram.com" target="_blank">Instagram</a>
-      <a href="https://facebook.com" target="_blank">Facebook</a>
-      <a href="https://bsky.app" target="_blank">Bluesky</a>
+      <a href="#" target="_blank">Instagram</a>
+      <a href="#" target="_blank">Facebook</a>
+      <a href="#" target="_blank">Bluesky</a>
     </div>
     <p>&copy; 2025 [Your Name]. All rights reserved.</p>
   </footer>
-
-  <script>
-    const contactBtn = document.getElementById('contactBtn');
-    const contactModal = document.getElementById('contactModal');
-    const closeModal = document.getElementById('closeModal');
-
-    contactBtn.onclick = () => contactModal.style.display = 'block';
-    closeModal.onclick = () => contactModal.style.display = 'none';
-    window.onclick = (e) => { if (e.target == contactModal) contactModal.style.display = 'none'; }
-  </script>
 </body>
 </html>
