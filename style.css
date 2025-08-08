@@ -1,99 +1,97 @@
-/* General Reset */
+/* Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    color: #fff;
-    line-height: 1.6;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
 }
 
 /* Hero Section */
 .hero-section {
-    position: relative;
-    height: 100vh;
-    background: url('https://iili.io/FsSnYWQ.md.jpg') center center/cover no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  position: relative;
+  height: 100vh;
+  background: url('https://iili.io/FsSnYWQ.md.jpg') center center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
 }
 
 .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(75, 0, 130, 0.6); /* purplish/blue overlay */
-    z-index: 1;
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(75, 0, 130, 0.6); /* purplish-blue overlay */
+  z-index: 1;
 }
 
 .hero-content {
-    position: relative;
-    z-index: 2;
-    max-width: 800px;
-    padding: 0 20px;
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  padding: 0 20px;
 }
 
 .hero-content h1 {
-    font-size: 3rem;
-    margin-bottom: 0.5rem;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
 }
 
 .hero-content h2 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    font-weight: normal;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: normal;
 }
 
 .cta-button {
-    background-color: #d9b3ff;
-    color: #333;
-    padding: 12px 25px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
+  background-color: #d9b3ff;
+  color: #333;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
 }
 
 .cta-button:hover {
-    background-color: #c29fe6;
+  background-color: #c29fe6;
 }
 
-/* About Section */
+/* Main content */
 main {
-    background: #fff;
-    color: #333;
-    padding: 2rem;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 20px;
 }
 
 .about, .services, .contact {
-    max-width: 900px;
-    margin: auto;
-    padding: 2rem 0;
+  margin-bottom: 2rem;
 }
 
 .about h2, .services h2, .contact h2 {
-    color: #4b0082; /* purple heading */
-    margin-bottom: 1rem;
+  color: #4b0082; /* purple headings */
+  margin-bottom: 1rem;
 }
 
-/* Services */
 .services ul {
-    list-style: none;
+  list-style-type: disc;
+  padding-left: 20px;
 }
 
 .services li {
-    margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 /* Footer */
 footer {
-    text-align: center;
-    background: #4b0082;
-    padding: 1rem;
-    color: white;
+  text-align: center;
+  background: #4b0082;
+  padding: 1rem;
+  color: white;
 }
