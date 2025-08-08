@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Realtor Name</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="your-photo.jpg" alt="Your Name" class="profile-photo" />
+    <div class="intro">
+      <h1>Hi, I’m [Your Name]</h1>
+      <p>Your trusted real estate agent helping you buy or sell your dream home with confidence.</p>
+    </div>
+    <button id="contactBtn">Contact Me</button>
+  </header>
+
+  <main>
+    <section class="why-me">
+      <h2>Why Work With Me?</h2>
+      <ul>
+        <li>Expert knowledge of the local market</li>
+        <li>Personalized buying and selling experience</li>
+        <li>Fast, clear, and honest communication</li>
+      </ul>
+    </section>
+
+    <section class="testimonials">
+      <h2>What My Clients Say</h2>
+      <p>“[Your Name] made buying our first home easy and stress-free!” – Happy Client</p>
+    </section>
+  </main>
+
+  <!-- Contact Form Modal -->
+  <div id="contactModal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal">&times;</span>
+      <h2>Get in Touch</h2>
+      <form action="https://formspree.io/f/yourformid" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    const contactBtn = document.getElementById('contactBtn');
+    const contactModal = document.getElementById('contactModal');
+    const closeModal = document.getElementById('closeModal');
+
+    contactBtn.onclick = () => contactModal.style.display = 'block';
+    closeModal.onclick = () => contactModal.style.display = 'none';
+    window.onclick = (e) => { if (e.target == contactModal) contactModal.style.display = 'none'; }
+  </script>
+</body>
+</html>
